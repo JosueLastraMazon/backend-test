@@ -54,6 +54,7 @@ public class PaymentFileService {
                         payment.getRegister().getVehicle().getPlateNumber()
                         .concat("\t")
                         .concat(""+payment.getDurationMinutes())
+                        .concat("\t")
                         .concat(payment.getAmount().toString()));
             });
 
